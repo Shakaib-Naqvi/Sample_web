@@ -1,0 +1,314 @@
+/* Home Page Styling */
+
+body {
+    background-color: #34ff4f;
+}
+
+.h1 {
+    background-color: green;
+    text-decoration: double;
+    color: white;
+    width: 100%;
+    margin-top: -10px;
+    margin-left: -10px;
+    text-align: center;
+    font-size: 50px;
+}
+
+.text {
+    text-decoration: none;
+    color: white;
+}
+
+
+/* Dropdown Button */
+
+.drop-btn {
+    padding: 12px 10px;
+    border: none;
+    font-size: 25px;
+    width: 250px;
+    height: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-align: center;
+}
+
+.drop-btn:hover {
+    transition: 0.5s;
+    background-color: #3e8e41;
+    font-size: 30px;
+    text-align: center;
+}
+
+
+/* The container <div> - needed to position the dropdown contents */
+
+.drop-down {
+    position: relative;
+    display: inline-block;
+}
+
+
+/* Dropdown Content (Hidden by Default) */
+
+.drop-down_contents {
+    display: none;
+    position: absolute;
+    background-color: lightgreen;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+
+/* Links inside the dropdown */
+
+.drop-down_contents a {
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+
+/* Change color of dropdown links on hover */
+
+.drop-down_contents a:hover {
+    background-color: green;
+}
+
+
+/* Show the dropdown menu on hover */
+
+.drop-down:hover .drop-down_contents {
+    display: block;
+}
+
+
+/* Change the background color of the dropdown button when the dropdown contents is shown */
+
+.drop-down:hover .drop-btn {
+    background-color: #3e8e41;
+}
+
+.buttons {
+    border: none;
+    font-size: 25px;
+    width: 250px;
+    height: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: white;
+    background-color: lightgreen;
+}
+
+.buttons:hover {
+    background-color: #3e8e41;
+    font-size: 30px;
+    text-decoration-color: lightgreen;
+    text-decoration: none;
+    border-radius: 20px;
+    transition: 0.5s;
+}
+
+.img {
+    transition: 0.5s;
+}
+
+.img:hover {
+    box-sizing: 2000px;
+    margin-top: -30px;
+    transition: 1s;
+}
+
+.h2 {
+    color: green;
+    font-size: 55px;
+    text-align: center;
+    text-decoration: double;
+    background-color: white;
+}
+
+.h2:hover {
+    font-size: 56px;
+    transition: 0.5s;
+}
+
+.parag1 {
+    margin-left: 10%;
+    font-size: 25px;
+    color: white;
+    transition: 1 s;
+    margin-right: 10%;
+    background-color: green;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-radius: 20px;
+}
+
+.president {
+    margin-left: 5%;
+}
+
+.td {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border: 20px;
+    text-shadow: 20px;
+    box-shadow: 2px 2px 5px 5px;
+    width: 200px;
+    height: 150px;
+    font-size: 30px;
+    text-align: center;
+    gap: 207px;
+    column-gap: 205px;
+}
+
+.td:hover {
+    font-size: 32px;
+    transition-duration: 0.5s;
+    background-color: green;
+}
+
+.td_1 {
+    color: white;
+    text-decoration: none;
+    text-align: center;
+}
+
+.td_1:hover {
+    transition-duration: 0.5s;
+}
+
+.h3 {
+    font-size: 40px;
+    text-align: center;
+    color: darkgreen;
+    border-radius: 500px;
+    background-color: white;
+}
+
+.img_bal {
+    margin-left: 67%;
+    margin-top: 5%;
+}
+
+.parag_2 {
+    margin-left: 2%;
+    margin-top: -23%;
+    margin-right: 34%;
+    font-size: 25px;
+    color: green;
+}
+
+.img {
+    height: auto;
+}
+
+.h4 {
+    color: green;
+    background-color: white;
+    text-align: center;
+    font-size: 35px;
+    text-decoration: double;
+}
+
+.table {
+    text-align: center;
+    /* margin-left: 35%; */
+    width: 1300px;
+    font-size: 20px;
+    border-color: white;
+    border-width: 10px;
+    border-radius: 20px;
+    color: green;
+}
+
+.h5 {
+    color: green;
+    background-color: white;
+    text-align: center;
+    font-size: 20px;
+}
+
+
+/* About Page Styling */
+
+.h1_ab {
+    background-color: green;
+    text-decoration: double;
+    color: white;
+    width: 100%;
+    text-align: center;
+    font-size: 50px;
+}
+
+.back {
+    width: 150px;
+    font-size: 30px;
+    border: none;
+    background-color: white;
+    color: green;
+    border-radius: 20px;
+    transition-duration: 0.5s;
+}
+
+.back:hover {
+    font-size: 35px;
+    transition-duration: 0.5s;
+    color: white;
+    background-color: green;
+}
+
+.img_sha {
+    border-radius: 50%;
+    width: 300px;
+}
+
+.h2_ab {
+    margin-top: -280px;
+    margin-left: 350px;
+    color: green;
+    font-size: 45px;
+}
+
+.parag_ab {
+    margin-left: 350px;
+    margin-right: 45px;
+    font-size: 25px;
+    color: white;
+    background-color: green;
+    border-radius: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+
+/* JavaScript Styling */
+
+
+.result {
+    font-size: 100px;
+}
+
+
+/* Making Website Responsive */
+
+
+/* 
+@media only screen and (min-width: 700px) {
+    body {
+        background-color: red;
+    }
+}
+
+@media (max-width: 699px) {
+    body {
+        background-color: blue;
+    }
+} */
